@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #2a5298;
+  margin-bottom: 1rem;
+}
+
+nav.navbar {
+  background: linear-gradient(90deg, #2a5298 0%, #1e3c72 100%);
+  box-shadow: 0 2px 8px rgba(42,82,152,0.1);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  color: #e0eafc !important;
+  margin-right: 1rem;
+  transition: color 0.2s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f7b42c !important;
+}
+
+.container {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(42,82,152,0.08);
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #f7b42c;
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+thead {
+  background: #2a5298;
+  color: #fff;
+}
+
+td, th {
+  padding: 0.75rem;
+  border: 1px solid #cfdef3;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #f7b42c 0%, #fc575e 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  transition: background 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #fc575e 0%, #f7b42c 100%);
+}
+
+a {
+  color: #2a5298;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #fc575e;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 12px;
+}
